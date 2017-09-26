@@ -1,0 +1,22 @@
+.logger {
+	position: absolute;
+	top: 50px;
+	right: 0;
+	width: 25%;
+	height: 100%;
+	background-color: #1e1e1e;
+	color: #fefefe;
+	font-family: Menlo, Monaco, 'Courier New', monospace;
+	font-size: 12px;
+	padding: 15px 30px;
+	box-sizing: border-box;
+	border-left: 2px solid #252525;
+	overflow: scroll;
+}
+
+
+.message {
+	padding-bottom: 10px;
+	padding-top: 10px;
+	border-bottom: 1px solid #252525;
+}

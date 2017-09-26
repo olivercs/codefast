@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>CodeFast</title>
+</head>
+<body>
+    <div id="root">
+        <style>
+            body {
+                background-color: #1e1e1e;
+            }
+            #root {
+                font-size: 14px;
+                font-family: Menlo, Monaco, 'Courier New', monospace;
+                text-align: center;
+                position: absolute;
+                top: 50%;
+                width: 100%;
+                color: white;
+            }
+        </style>
+        Loading...
+    </div>
+    <script type="text/javascript" src="jspm_packages/npm/monaco-editor@0.9.0/min/vs/loader.js">
+    </script>
+    <script src="jspm_packages/system.js"></script>
+    <script src="config.js"></script>
+    <script>
+
+	require.config({ paths: { 'vs': 'jspm_packages/npm/monaco-editor@0.9.0/min/vs' }});
+
+	require(['vs/editor/editor.main'], function() {
+        System.import('index.js');
+	});
+
+    </script>
+
+</body>
+</html>

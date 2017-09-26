@@ -1,0 +1,58 @@
+.sidebar {
+	position: absolute;
+	top: 50px;
+	left: 0;
+	width: 15%;
+	height: 100%;
+	background-color: #1e1e1e;
+	color: #fefefe;
+	font-family: Menlo, Monaco, 'Courier New', monospace;
+	font-size: 12px;
+	padding: 15px 0;
+	box-sizing: border-box;
+	border-right: 2px solid #252525;
+	overflow: scroll;
+}
+
+.add-file-contanier {
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  width: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.add-file {
+  width: 100%;
+  background: #0066A0;
+  border-radius: 2px;
+  border: 0;
+  color: white;
+  outline: 0;
+  cursor: pointer;;
+}
+
+.filename-container {
+  display: flex;
+  padding: 5px 15px;
+}
+
+.filename {
+  flex: 1;
+  cursor: pointer;
+}
+
+.filename-container:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.filename-container:hover .btn-remove {
+  display: block;
+}
+
+.btn-remove {
+  display: none;
+  cursor: pointer;
+}
+

@@ -1,0 +1,25 @@
+.topbar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 50px;
+	background-color: #1e1e1e;
+	color: #fefefe;
+	font-family: Menlo, Monaco, 'Courier New', monospace;
+	font-size: 12px;
+	padding: 15px;
+	box-sizing: border-box;
+	border-bottom: 2px solid #252525;
+	overflow: scroll;
+}
+
+
+.input-name {
+	width: 100%;
+    background: transparent;
+    border: 0;
+    color: #efefef;
+    font-size: 16px;
+    outline: 0;
+}
